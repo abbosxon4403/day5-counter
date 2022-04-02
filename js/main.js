@@ -5,7 +5,7 @@ let evro = som / 10354;
 let ticket = 500;
 let hotel = 250;
 let museum = 120;
-console.log("ticket =", ticket, '$', "hotel =", hotel, '$', "museum =", evro = 1 * museum, 'yevro')
+console.log("ticket =", ticket, '$', "hotel =", hotel, '$', "museum =", museum, 'dollar')
 console.log("SO'M =", Math.round(som), "DOLLAR =", Math.round(dollar), "EVRO =", Math.round(evro));
 if (som <= 0) {
     dollar = 0;
@@ -18,3 +18,4 @@ if (dollar - ticket + hotel + museum <= 0) {
 } else {
     console.log("yaxshi yo'l sizga! ");
 }
+console.log("end");
